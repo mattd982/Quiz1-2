@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz1</title>
+  <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<body>
+  <header class="row">
+    <div class="col-3">
+      <div class="square">
+       <br />
+        First
+        <br />
+        Quiz
+        <br />
+        App
+      </div>
+    </div>
+    <div class="col-4 slogan">
+      Learning how to code, creating my first web app
+    </div>
+    <div class="col-5 links">
+      
+    </div>
+  </header>
+<hr />
+
+<br class="clear" />
+
+<%= yield %>
+ </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+        Creating a basic 
+        <br/>
+        web page
+      </div>
+      <div class="col-6 footer-blurb">
+        Proudly designed by 
+        <br/>
+        Matt Day 
+      </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
+

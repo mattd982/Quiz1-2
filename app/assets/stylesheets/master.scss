@@ -1,0 +1,84 @@
+@import "bootstrap";
+
+.clear {
+  clear: both;
+}
+
+.square {
+    font-weight: bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: black;
+    border: 4px solid #4B05A3;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #4B05A3;
+    font-size: 12px;
+    line-height: 16px;
+    cursor: pointer;
+    transform: rotate(0deg);
+    
+}
+
+.slogan {
+  font-family: "Figaro Sans Serif", Figaro, sans-serif;
+  padding-top: 50px;
+  color: #4B05A3;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.links a {
+  color: blue;
+  font-size: 18px;
+  border-bottom: 1px solid black;
+}
+
+header {
+  border-top: 88px solid black;
+}
+
+hr {
+  clear:both;
+}
+
+h1 {
+  font-family: "Figaro Sans Serif", Figaro, sans-serif;
+  font-weight: 600;
+  letter-spacing: -1.5px;
+  color: #440296,
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 88px;
+  background-color: black;
+  color:#4701A0
+}
+
+body {
+   background: url('hacker.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+
+
+}
+    
+   
